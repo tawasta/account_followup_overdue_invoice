@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+		<record id="view_account_followup_followup_line_form" model="ir.ui.view">
+			<field name="name">Account followup line form</field>
+			<field name="model">account_followup.followup.line</field>
+			<field name="inherit_id" ref="account_followup.view_account_followup_followup_line_form" />
+			<field name="arch" type="xml">
+
+                <div class="oe_inline" position="after">
+                    <div>
+                        <field name="overdue_invoice" class="oe_inline"/>
+                        <label for="overdue_invoice"/>
+                    </div>
+                </div>
+
+			</field>
+		</record>
+
+	</data>
+</openerp>

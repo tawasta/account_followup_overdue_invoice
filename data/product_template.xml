@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="0">
+
+        <record id="overdue_interest" model="product.template">
+            <field name="name">Overdue interest</field>
+            <field name="type">consu</field>
+        </record>
+
+        <record id="overdue_payment" model="product.template">
+            <field name="name">Overdue payment</field>
+            <field name="type">service</field>
+        </record>
+
+        <record id="deb_collection_fee" model="product.template">
+            <field name="name">Debt collection fee</field>
+            <field name="type">service</field>
+        </record>
+
+    </data>
+</openerp>

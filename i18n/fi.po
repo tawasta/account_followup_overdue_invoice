@@ -1,0 +1,146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* account_followup_overdue_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-12 13:10+0000\n"
+"PO-Revision-Date: 2016-12-12 13:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_followup_overdue_invoice
+#: model:ir.model,name:account_followup_overdue_invoice.model_account_followup_followup
+msgid "Account Follow-up"
+msgstr "Maksujen seuranta"
+
+#. module: account_followup_overdue_invoice
+#: help:account_followup.followup.line,overdue_invoice:0
+msgid "Create invoice with selected extra payment rows"
+msgstr "Luo laskut valituilla lisämaksuriveillä"
+
+#. module: account_followup_overdue_invoice
+#: field:account_followup.followup.line,overdue_invoice:0
+msgid "Create overdue invoice"
+msgstr "Luo muistutusmaksu"
+
+#. module: account_followup_overdue_invoice
+#: model:ir.actions.act_window,name:account_followup_overdue_invoice.action_invoice_overdue
+#: model:ir.ui.menu,name:account_followup_overdue_invoice.menu_action_invoice_overdue
+msgid "Customer Invoices Overdue"
+msgstr "Asiakaslaskut myöhässä"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,debt_collection_fee:0
+#: field:account_followup.followup,debt_collection_fee:0
+#: model:product.template,name:account_followup_overdue_invoice.deb_collection_fee
+msgid "Debt collection fee"
+msgstr "Perintämaksu"
+
+#. module: account_followup_overdue_invoice
+#: model:ir.model,name:account_followup_overdue_invoice.model_account_followup_followup_line
+msgid "Follow-up Criteria"
+msgstr "Seurantatoimenpiteiden kriteerit"
+
+#. module: account_followup_overdue_invoice
+#: view:account_followup.followup:account_followup_overdue_invoice.view_account_followup_followup_form
+msgid "Followup settings"
+msgstr "Seurannan asetukset"
+
+#. module: account_followup_overdue_invoice
+#: model:ir.model,name:account_followup_overdue_invoice.model_account_invoice
+msgid "Invoice"
+msgstr "Lasku"
+
+#. module: account_followup_overdue_invoice
+#: model:ir.model,name:account_followup_overdue_invoice.model_account_journal
+msgid "Journal"
+msgstr "Päiväkirja"
+
+#. module: account_followup_overdue_invoice
+#: help:account_followup.followup,followup_payment_term:0
+msgid "Leave empty to use the original payment term"
+msgstr "Jätä tyhjäksi käyttääksesi laskun alkuperäistä maksuehtoa"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,overdue:0
+msgid "Overdue"
+msgstr "Myöhässä"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,date_due_count:0
+msgid "Overdue days"
+msgstr "Päiviä myöhässä"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,overdue_interest:0
+#: model:product.template,name:account_followup_overdue_invoice.overdue_interest
+msgid "Overdue interest"
+msgstr "Viivästyskorko"
+
+#. module: account_followup_overdue_invoice
+#: field:account_followup.followup,overdue_interest:0
+msgid "Overdue interest %"
+msgstr "Viivästyskorko %"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,overdue_payment:0
+#: field:account_followup.followup,overdue_payment:0
+#: model:product.template,name:account_followup_overdue_invoice.overdue_payment
+msgid "Overdue payment"
+msgstr "Viivästysmaksu"
+
+#. module: account_followup_overdue_invoice
+#: model:ir.model,name:account_followup_overdue_invoice.model_res_partner
+msgid "Partner"
+msgstr "Kumppani"
+
+#. module: account_followup_overdue_invoice
+#: field:account_followup.followup,followup_payment_term:0
+msgid "Payment term on followups"
+msgstr "Muistutusmaksujen maksuehto"
+
+#. module: account_followup_overdue_invoice
+#: model:ir.model,name:account_followup_overdue_invoice.model_account_followup_print
+msgid "Print Follow-up & Send Mail to Customers"
+msgstr "Tulosta seurantatoimenpiteet ja lähetä postia asiakkaille"
+
+#. module: account_followup_overdue_invoice
+#: view:account.invoice:account_followup_overdue_invoice.invoice_form
+msgid "Reminder Invoice"
+msgstr "Muistutuslasku"
+
+#. module: account_followup_overdue_invoice
+#: view:account.invoice:account_followup_overdue_invoice.invoice_overdue_tree
+msgid "Responsible"
+msgstr "Vastuullinen"
+
+#. module: account_followup_overdue_invoice
+#: view:account.invoice:account_followup_overdue_invoice.invoice_overdue_tree
+msgid "Total Amount"
+msgstr "Kokonaismäärä"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,use_debt_collection_fee:0
+#: field:account_followup.followup,use_debt_collection_fee:0
+msgid "Use debt collection fee"
+msgstr "Käytä perintämaksua"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,use_overdue_interest:0
+#: field:account_followup.followup,use_overdue_interest:0
+msgid "Use overdue interest"
+msgstr "Käytä viivästyskorkoa"
+
+#. module: account_followup_overdue_invoice
+#: field:account.invoice,use_overdue_payment:0
+#: field:account_followup.followup,use_overdue_payment:0
+msgid "Use overdue payment"
+msgstr "Käytä viivästysmaksua"
+

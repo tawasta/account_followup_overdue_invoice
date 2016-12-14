@@ -1,0 +1,5 @@
+import account_followup
+import account_followup_line
+import account_invoice
+import account_journal
+import res_partner
